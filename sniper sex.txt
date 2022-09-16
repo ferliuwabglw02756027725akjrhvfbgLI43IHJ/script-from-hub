@@ -1,11 +1,3 @@
-DiscordLib:Notification("Notification", "This may not be accurate to what was originally planned to release", "I understand")
-    print("Loading script..")
-    wait(0.3)
-    print("Yes I know this was animated with nexo but the animator was a pedophile who was kicked of the development team for watching child porn")
-    print("Otherwise the asshole who made this it is a good script")
-    wait(0.3)
-    setclipboard("https://www.roblox.com/catalog/7604332496/Mercenarys-Sniper-AMR-12-7")
-    print("Hat link copied to clipboard. Cost: 150 ROBUX")
     for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
         if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
         game:GetService("RunService").Heartbeat:connect(function()
