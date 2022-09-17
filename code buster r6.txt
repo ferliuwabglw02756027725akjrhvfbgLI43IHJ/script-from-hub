@@ -1,5 +1,3 @@
-    game.Players:Chat("-gh 4504231783,5461565967")
-    wait(1)
     for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
         if v:IsA("Accessory") then
             if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
