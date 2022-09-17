@@ -1,4 +1,4 @@
-    game.Players:Chat("-gh 5134896593,4966333091,63690008")
+
     
      setfpscap(60)
 wait(0.5)
