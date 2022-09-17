@@ -1,4 +1,28 @@
--- || VARIABLES || -- 
+
+kon=game:GetService("Players").LocalPlayer
+--kon=require(script[':flushed: magic'])
+Mouse,mouse,UserInputService,RenderStepped,Player=kon:GetMouse(),kon:GetMouse(),game:service'UserInputService',game:GetService('RunService').Heartbeat,kon
+script = game:GetObjects("rbxassetid://5177488826")[1].Soldier
+GlobalFunctions = {}
+loadstring(game:HttpGet(('https://pastebin.com/raw/uq6axDFA'),true))()
+loadstring(game:GetObjects("rbxassetid://5425999987")[1].Source)()
+-- -gh 6198633506,7167966065
+-- -gh 7604371176,6202097932
+local cnnnnn = game.Players.LocalPlayer.Character
+local function gp(parent, name, className)
+	local ret = nil
+	if parent then
+		for i, v in pairs(parent:GetChildren()) do
+			if (v.Name == name) and v:IsA(className) then
+				ret = v
+			end
+		end
+	end
+	return ret
+end
+
+-------------------------------------------------------------------------
+|| VARIABLES || -- 
 local Players = game:GetService("Players")
 local Character = kon.Character
 Humanoid = Character.Humanoid
